@@ -3,6 +3,7 @@ import tensorflow as tf
 import requests
 
 loaded_model = load_model("vgg16_epochs_10.h5")
+#download model with this link https://drive.google.com/file/d/1y3wLxuwsNyB2RBn-_cHfbuwLrfiqOmtB/view?usp=share_link
 
 classes = [
     'CELOSIA_ARGENTEA_L',
